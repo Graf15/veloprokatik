@@ -1,0 +1,42 @@
+.sidebar-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .sidebar-toggle {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebar.open {
+    width: 200px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #444;
+  }
+  
+  .sidebar ul li span {
+    margin-left: 10px;
+  }
